@@ -1,0 +1,19 @@
+{
+  "articles": {
+    "status": true,
+    "data": [
+      {
+        "id": 1,
+        "imageUrl": "",
+        "title": "test 1",
+        "summary": "skjsnjkgnsfk"
+      },
+      {
+        "id": 2,
+        "imageUrl": "",
+        "title": "test 2",
+        "summary": "skjsnjkgnsfk"
+      }
+    ]
+  }
+}
