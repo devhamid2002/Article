@@ -1,5 +1,5 @@
 import About from "./pages/about/About";
-import Articelpage from "./pages/article page/Articelpage";
+import Articelpage from "./pages/article page/Articlepage";
 import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
 
