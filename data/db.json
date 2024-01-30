@@ -1,31 +1,44 @@
 {
-  "articles": {
-    "status": true,
-    "data": [
-      {
-        "id": 1,
-        "imageUrl": "",
-        "title": "Noteworthy technology acquisitions 2021",
-        "summary": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
-      },
-      {
-        "id": 2,
-        "imageUrl": "",
-        "title": "Noteworthy technology acquisitions 2021",
-        "summary": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
-      },
-      {
-        "id": 3,
-        "imageUrl": "",
-        "title": "Noteworthy technology acquisitions 2021",
-        "summary": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
-      },
-      {
-        "id": 4,
-        "imageUrl": "",
-        "title": "Noteworthy technology acquisitions 2021",
-        "summary": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
-      }
-    ]
-  }
+  "articles": [
+    {
+      "id": 1,
+      "imageUrl": "",
+      "title": "Noteworthy technology acquisitions 2021",
+      "summary": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      "readingTime": "5",
+      "author": "",
+      "date": "May 01,2024",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit risus et arcu facilisis euismod. In tristique pellentesque lectus, vitae molestie mi feugiat efficitur. Nullam varius ornare quam a faucibus. Maecenas blandit a metus vitae mollis. Curabitur pellentesque massa nec lacus posuere venenatis. Vestibulum risus mauris, sollicitudin posuere sollicitudin sit amet, sodales euismod mi. Nullam maximus nibh nec nulla tincidunt gravida. Nulla tempus hendrerit libero facilisis efficitur. Maecenas laoreet ipsum eleifend tortor varius maximus. Phasellus quis pharetra metus. Cras venenatis eros eget arcu tristique aliquet. Praesent lectus nibh, fringilla vel tincidunt porta, molestie vitae sem. Donec vitae risus at tortor dignissim rutrum quis id magna."
+    },
+    {
+      "id": 2,
+      "imageUrl": "",
+      "title": "Noteworthy technology acquisitions 2021",
+      "summary": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      "readingTime": "4",
+      "author": "",
+      "date": "May 01,2024",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit risus et arcu facilisis euismod. In tristique pellentesque lectus, vitae molestie mi feugiat efficitur. Nullam varius ornare quam a faucibus. Maecenas blandit a metus vitae mollis. Curabitur pellentesque massa nec lacus posuere venenatis. Vestibulum risus mauris, sollicitudin posuere sollicitudin sit amet, sodales euismod mi. Nullam maximus nibh nec nulla tincidunt gravida. Nulla tempus hendrerit libero facilisis efficitur. Maecenas laoreet ipsum eleifend tortor varius maximus. Phasellus quis pharetra metus. Cras venenatis eros eget arcu tristique aliquet. Praesent lectus nibh, fringilla vel tincidunt porta, molestie vitae sem. Donec vitae risus at tortor dignissim rutrum quis id magna."
+    },
+    {
+      "id": 3,
+      "imageUrl": "",
+      "title": "Noteworthy technology acquisitions 2021",
+      "summary": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      "readingTime": "2",
+      "author": "",
+      "date": "May 01,2024",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit risus et arcu facilisis euismod. In tristique pellentesque lectus, vitae molestie mi feugiat efficitur. Nullam varius ornare quam a faucibus. Maecenas blandit a metus vitae mollis. Curabitur pellentesque massa nec lacus posuere venenatis. Vestibulum risus mauris, sollicitudin posuere sollicitudin sit amet, sodales euismod mi. Nullam maximus nibh nec nulla tincidunt gravida. Nulla tempus hendrerit libero facilisis efficitur. Maecenas laoreet ipsum eleifend tortor varius maximus. Phasellus quis pharetra metus. Cras venenatis eros eget arcu tristique aliquet. Praesent lectus nibh, fringilla vel tincidunt porta, molestie vitae sem. Donec vitae risus at tortor dignissim rutrum quis id magna."
+    },
+    {
+      "id": 4,
+      "imageUrl": "",
+      "title": "Noteworthy technology acquisitions 2021",
+      "summary": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      "readingTime": "3",
+      "author": "",
+      "date": "May 01,2024",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit risus et arcu facilisis euismod. In tristique pellentesque lectus, vitae molestie mi feugiat efficitur. Nullam varius ornare quam a faucibus. Maecenas blandit a metus vitae mollis. Curabitur pellentesque massa nec lacus posuere venenatis. Vestibulum risus mauris, sollicitudin posuere sollicitudin sit amet, sodales euismod mi. Nullam maximus nibh nec nulla tincidunt gravida. Nulla tempus hendrerit libero facilisis efficitur. Maecenas laoreet ipsum eleifend tortor varius maximus. Phasellus quis pharetra metus. Cras venenatis eros eget arcu tristique aliquet. Praesent lectus nibh, fringilla vel tincidunt porta, molestie vitae sem. Donec vitae risus at tortor dignissim rutrum quis id magna."
+    }
+  ]
 }
