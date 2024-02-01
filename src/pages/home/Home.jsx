@@ -5,29 +5,41 @@ import Footer from "../../components/footer/Footer";
 import Article from "../../components/article/Article";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import Loding from "../../components/loding/Loding";
 
 function Home() {
-  //http://localhost:8000/articles
   const [articles, setArticle] = useState([]);
+  const [isLoding, setIsLoding] = useState(false);
   useEffect(() => {
-    axios.get("http://localhost:8000/articles").then((result) => {
-      setArticle(result.data);
-    });
+    setIsLoding(true);
+    axios
+      .get("http://localhost:8000/articles")
+      .then((result) => {
+        setArticle(result.data);
+        setIsLoding(false);
+      })
+      .catch((error) => {
+        console.log(error);
+        setIsLoding(false);
+      });
   }, []);
   return (
-    <div>
+    <div className="">
       <Navbar />
       <div className="max-w-[1400px] mx-auto my-12">
-        <h1 className="my-14">Article</h1>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4 mt-8 mx-auto">
-          {articles.map((article) => (
-            <Link to={`/article/${article.id}`}>
-              <Article key={article.id} article={article} />
-            </Link>
-          ))}
-        </div>
+        <h1 className="my-14 font-bold text-3xl">Article</h1>
+        {isLoding ? (
+          <Loding />
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4 mt-8 mx-auto">
+            {articles.map((article) => (
+              <Link to={`/article/${article.id}`}>
+                <Article key={article.id} article={article} />
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
-
       <Footer />
     </div>
   );
