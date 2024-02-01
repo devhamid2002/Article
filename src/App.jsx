@@ -1,15 +1,23 @@
+import NotFound from "./pages/404/NotFound";
 import About from "./pages/about/About";
 import Articelpage from "./pages/article page/Articlepage";
+import CreatArticle from "./pages/creactpage/CreatArticle";
 import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
+import Login from "./pages/login/Login";
+import Signup from "./pages/sign up/Signup";
 
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Sign-up" element={<Signup />} />
         <Route path="/article/:id" element={<Articelpage />} />
+        <Route path="/CreatArticle" element={<CreatArticle />} />
       </Routes>
     </div>
   );
