@@ -19,18 +19,24 @@ function Navbar() {
               Flowbite
             </span>
           </a>
-          <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button
-              type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
+          <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
+            <Link
+              to="/Login"
+              class="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-600 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5  focus:outline-none "
             >
-              Get started
-            </button>
+              Login
+            </Link>
+            <Link
+              to="/sign-up"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5  focus:outline-none "
+            >
+              Sign up
+            </Link>
             <button
-              data-collapse-toggle="navbar-cta"
+              data-collapse-toggle="mega-menu"
               type="button"
-              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
-              aria-controls="navbar-cta"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  "
+              aria-controls="mega-menu"
               aria-expanded="false"
             >
               <span class="sr-only">Open main menu</span>
@@ -70,13 +76,8 @@ function Navbar() {
                   Services
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700"
-                >
-                  Contact
-                </a>
+              <li class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700">
+                <Link to="/CreatArticle">Contact</Link>
               </li>
             </ul>
           </div>
