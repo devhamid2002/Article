@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
 import Login from "./pages/login/Login";
 import Signup from "./pages/sign up/Signup";
+import Services from "./pages/services/Services";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Sign-up" element={<Signup />} />
+        <Route path="/Services" element={<Services />} />
         <Route path="/article/:id" element={<Articelpage />} />
         <Route path="/CreatArticle" element={<CreatArticle />} />
       </Routes>
