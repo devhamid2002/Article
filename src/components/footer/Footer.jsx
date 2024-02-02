@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "./../../assets/images/logo.png";
 function Footer() {
   return (
     <div>
@@ -8,13 +8,9 @@ function Footer() {
           <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center">
-                <img
-                  src="https://flowbite.com/docs/images/logo.svg"
-                  class="h-8 me-3"
-                  alt="FlowBite Logo"
-                />
+                <img src={logo} class="h-8 me-3" alt="FlowBite Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap">
-                  Flowbite
+                  Webflow
                 </span>
               </a>
             </div>
@@ -26,7 +22,7 @@ function Footer() {
                 <ul class="text-gray-500 font-medium">
                   <li class="mb-4">
                     <a href="https://flowbite.com/" class="hover:underline">
-                      Flowbite
+                      Webflow
                     </a>
                   </li>
                   <li>
@@ -83,7 +79,7 @@ function Footer() {
             <span class="text-sm text-gray-500 sm:text-center">
               © 2023{" "}
               <a href="https://flowbite.com/" class="hover:underline">
-                Flowbite™
+                Webflow™
               </a>
               . All Rights Reserved.
             </span>
