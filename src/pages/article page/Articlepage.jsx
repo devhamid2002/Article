@@ -6,7 +6,6 @@ import img from "./../../assets/images/image.webp";
 import { FaUserPen, FaRegClock } from "react-icons/fa6";
 import { MdDateRange } from "react-icons/md";
 import axios from "axios";
-import { wait } from "@testing-library/user-event/dist/utils";
 import Loding from "../../components/loding/Loding";
 
 function Articelpage() {
