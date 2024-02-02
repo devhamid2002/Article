@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "./../../assets/images/logo.png";
 
 function Navbar() {
   return (
@@ -10,19 +11,15 @@ function Navbar() {
             href="https://flowbite.com/"
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8"
-              alt="Flowbite Logo"
-            />
+            <img src={logo} class="h-8" alt="Flowbite Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap">
-              Flowbite
+              Webflow
             </span>
           </a>
           <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
             <Link
               to="/Login"
-              class="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-600 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5  focus:outline-none "
+              class="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5  focus:outline-none "
             >
               Login
             </Link>
@@ -69,12 +66,12 @@ function Navbar() {
                 <Link to="/About">About</Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/Services"
                   class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700"
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700">
                 <Link to="/CreatArticle">Contact</Link>
