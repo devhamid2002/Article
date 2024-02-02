@@ -27,11 +27,11 @@ function Home() {
     <div className="">
       <Navbar />
       <div className="max-w-[1400px] mx-auto my-12">
-        <h1 className="my-14 font-bold text-3xl">Article</h1>
+        <h1 className="my-14 font-bold mx-4 text-3xl">Article</h1>
         {isLoding ? (
           <Loding />
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4 mt-8 mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4 mt-8 mx-4">
             {articles.map((article) => (
               <Link to={`/article/${article.id}`}>
                 <Article key={article.id} article={article} />
