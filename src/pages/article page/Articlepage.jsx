@@ -9,10 +9,11 @@ import axios from "axios";
 import Loding from "../../components/loding/Loding";
 
 function Articelpage() {
+  // Definition State
   const [article, setArticle] = useState({});
   const [isLoding, setIsLoding] = useState(false);
   const params = useParams();
-
+  // API Call
   useEffect(() => {
     setIsLoding(true);
     axios
@@ -28,16 +29,20 @@ function Articelpage() {
   }, []);
   return (
     <div>
+      {/* Navbar Camponent */}
       <Navbar />
+      {/* Main */}
       <div className="max-w-[1400px] mx-auto my-12">
         {isLoding ? (
           <Loding />
         ) : (
           <>
             {" "}
+            {/* Img Article */}
             <img src={img} className="mx-auto" alt="" />
             <div className="flex justify-center my-6">
-              <div>
+              {/* Author Article */}
+              <div className="mx-8">
                 <FaUserPen
                   className="inline-block pb-1 text-gray-500"
                   size={25}
@@ -46,7 +51,8 @@ function Articelpage() {
                   {article.author}
                 </span>
               </div>
-              <div className="px-8">
+              {/* Date Creat Article */}
+              <div className="px-8 mx-8">
                 <MdDateRange
                   className="inline-block pb-1 text-gray-500"
                   size={30}
@@ -55,7 +61,8 @@ function Articelpage() {
                   {article.date}
                 </span>
               </div>
-              <div>
+              {/* ReadingTime Article*/}
+              <div className="mx-8">
                 <FaRegClock
                   className="inline-block pb-1 text-gray-500"
                   size={30}
@@ -65,12 +72,15 @@ function Articelpage() {
                 </span>
               </div>
             </div>
-            <h1 className="max-w-[1200px] my-6 mx-8 font-bold  text-3xl">
-              {article.title}
-            </h1>
-            <p className="max-w-[1200px] my-6 mx-8 text-justify">
-              {article.content}
-            </p>
+            {/* Main Article */}
+            <div>
+              <h1 className="max-w-[1200px] my-6 mx-8 font-bold  text-3xl">
+                {article.title}
+              </h1>
+              <p className="max-w-[1200px] my-6 mx-8 text-justify">
+                {article.content}
+              </p>
+            </div>
           </>
         )}
       </div>
