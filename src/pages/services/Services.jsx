@@ -5,7 +5,9 @@ import Footer from "../../components/footer/Footer";
 function Services() {
   return (
     <div>
+      {/* Navbar Camponent */}
       <Navbar />
+      {/* Main Services Page */}
       <div class="bg-gray-200 px-2 py-10">
         <div id="features" class="mx-auto max-w-6xl">
           <p class="text-center text-base font-semibold leading-7 text-primary-500">
@@ -53,56 +55,51 @@ function Services() {
               </p>
             </li>
             <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
-              <a href="/pricing" class="group">
-                <img
-                  src="https://www.svgrepo.com/show/530440/machine-vision.svg"
-                  alt=""
-                  class="mx-auto h-10 w-10"
-                />
-                <h3 class="my-3 font-display font-medium group-hover:text-primary-500">
-                  Free trial
-                </h3>
-                <p class="mt-1.5 text-sm leading-6 text-secondary-500">
-                  We offer a free trial service without login. We provide many
-                  payment options including pay-as-you-go and subscription.
-                </p>
-              </a>
+              <img
+                src="https://www.svgrepo.com/show/530440/machine-vision.svg"
+                alt=""
+                class="mx-auto h-10 w-10"
+              />
+              <h3 class="my-3 font-display font-medium group-hover:text-primary-500">
+                Free trial
+              </h3>
+              <p class="mt-1.5 text-sm leading-6 text-secondary-500">
+                We offer a free trial service without login. We provide many
+                payment options including pay-as-you-go and subscription.
+              </p>
             </li>
             <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
-              <a href="/templates" class="group">
-                <img
-                  src="https://www.svgrepo.com/show/530450/page-analysis.svg"
-                  alt=""
-                  class="mx-auto h-10 w-10"
-                />
-                <h3 class="my-3 font-display font-medium group-hover:text-primary-500">
-                  90+ templates
-                </h3>
-                <p class="mt-1.5 text-sm leading-6 text-secondary-500">
-                  We offer many templates covering areas such as writing,
-                  education, lifestyle and creativity to inspire your potential.{" "}
-                </p>
-              </a>
+              <img
+                src="https://www.svgrepo.com/show/530450/page-analysis.svg"
+                alt=""
+                class="mx-auto h-10 w-10"
+              />
+              <h3 class="my-3 font-display font-medium group-hover:text-primary-500">
+                90+ templates
+              </h3>
+              <p class="mt-1.5 text-sm leading-6 text-secondary-500">
+                We offer many templates covering areas such as writing,
+                education, lifestyle and creativity to inspire your potential.{" "}
+              </p>
             </li>
             <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
-              <a href="/download" class="group">
-                <img
-                  src="https://www.svgrepo.com/show/530453/mail-reception.svg"
-                  alt=""
-                  class="mx-auto h-10 w-10"
-                />
-                <h3 class="my-3 font-display font-medium group-hover:text-primary-500">
-                  Use Anywhere
-                </h3>
-                <p class="mt-1.5 text-sm leading-6 text-secondary-500">
-                  Our product is compatible with multiple platforms including
-                  Web, Chrome, Windows and Mac, you can use MagickPen anywhere.
-                </p>
-              </a>
+              <img
+                src="https://www.svgrepo.com/show/530453/mail-reception.svg"
+                alt=""
+                class="mx-auto h-10 w-10"
+              />
+              <h3 class="my-3 font-display font-medium group-hover:text-primary-500">
+                Use Anywhere
+              </h3>
+              <p class="mt-1.5 text-sm leading-6 text-secondary-500">
+                Our product is compatible with multiple platforms including Web,
+                Chrome, Windows and Mac, you can use MagickPen anywhere.
+              </p>
             </li>
           </ul>
         </div>
       </div>
+      {/* Footer Camponent */}
       <Footer />
     </div>
   );
