@@ -7,8 +7,11 @@ function Footer() {
         <div class="mx-auto w-full max-w-[1400px] p-4 py-6 lg:py-8">
           <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" class="flex items-center">
-                <img src={logo} class="h-8 me-3" alt="FlowBite Logo" />
+              <a
+                href="https://github.com/devhamid2002"
+                class="flex items-center"
+              >
+                <img src={logo} class="h-8 me-3" alt="Webflow Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap">
                   Webflow
                 </span>
@@ -21,12 +24,18 @@ function Footer() {
                 </h2>
                 <ul class="text-gray-500 font-medium">
                   <li class="mb-4">
-                    <a href="https://flowbite.com/" class="hover:underline">
+                    <a
+                      href="https://github.com/devhamid2002"
+                      class="hover:underline"
+                    >
                       Webflow
                     </a>
                   </li>
                   <li>
-                    <a href="https://tailwindcss.com/" class="hover:underline">
+                    <a
+                      href="https://github.com/devhamid2002"
+                      class="hover:underline"
+                    >
                       Tailwind CSS
                     </a>
                   </li>
@@ -39,7 +48,7 @@ function Footer() {
                 <ul class="text-gray-500 font-medium">
                   <li class="mb-4">
                     <a
-                      href="https://github.com/themesberg/flowbite"
+                      href="https://github.com/devhamid2002"
                       class="hover:underline "
                     >
                       Github
@@ -47,7 +56,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://discord.gg/4eeurUVvTy"
+                      href="https://github.com/devhamid2002"
                       class="hover:underline"
                     >
                       Discord
@@ -78,7 +87,7 @@ function Footer() {
           <div class="sm:flex sm:items-center sm:justify-between">
             <span class="text-sm text-gray-500 sm:text-center">
               © 2023{" "}
-              <a href="https://flowbite.com/" class="hover:underline">
+              <a href="https://github.com/devhamid2002" class="hover:underline">
                 Webflow™
               </a>
               . All Rights Reserved.
