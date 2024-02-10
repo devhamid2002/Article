@@ -3,6 +3,7 @@ import React from "react";
 function Loding() {
   return (
     <div>
+      {/* Main Loding */}
       <div class="fixed bottom-0 top-0 items-center block w-full p-6 bg-gray-300 opacity-70 border border-gray-100 rounded-lg shadow-md ">
         <div
           role="status"
