@@ -5,7 +5,9 @@ import Footer from "../../components/footer/Footer";
 function Signup() {
   return (
     <div>
+      {/* Navbar Camponent */}
       <Navbar />
+      {/* Main Singup Page */}
       <div class="h-screen md:flex">
         <div class="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 i justify-around items-center hidden">
           <div>
@@ -129,6 +131,7 @@ function Signup() {
           </form>
         </div>
       </div>
+      {/* Footer Camponent */}
       <Footer />
     </div>
   );
