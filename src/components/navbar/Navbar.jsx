@@ -5,13 +5,14 @@ import logo from "./../../assets/images/logo.png";
 function Navbar() {
   return (
     <div>
+      {/* Main Navbar */}
       <nav class="bg-white border-gray-200 border">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="https://github.com/devhamid2002"
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src={logo} class="h-8" alt="Flowbite Logo" />
+            <img src={logo} class="h-8" alt="Webflow Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap">
               Webflow
             </span>
@@ -54,6 +55,7 @@ function Navbar() {
               </svg>
             </button>
           </div>
+          {/* Main Menu */}
           <div
             class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-cta"
