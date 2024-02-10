@@ -5,7 +5,9 @@ import Footer from "../../components/footer/Footer";
 function About() {
   return (
     <div>
+      {/* Navbar Camponent */}
       <Navbar />
+      {/* Main About Page */}
       <div class="bg-gray-200 py-12">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-5xl lg:text-center flex flex-col justify-center items-center">
@@ -138,6 +140,7 @@ function About() {
           </div>
         </div>
       </div>
+      {/* Footer Camponent */}
       <Footer />
     </div>
   );
