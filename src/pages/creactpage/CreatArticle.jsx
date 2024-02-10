@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer";
 import axios from "axios";
 
 function CreatArticle() {
+  // Definition State
   const [article, setArticle] = useState({
     Author: "",
     Title: "",
@@ -12,19 +13,22 @@ function CreatArticle() {
     Summary: "",
     Content: "",
   });
+  // Handel Change Input
   const handleChangeArticle = (e) => {
     setArticle((prevState) => ({
       ...prevState,
       [e.target.name]: e.target.value,
     }));
   };
+  // Handel Change Textarea
   const handleChangeTextarea = (e) => {
     setArticle((prevState) => ({
       ...prevState,
       [e.target.name]: e.target.value,
     }));
   };
-  const handeleCreatArticle = (e) => {
+  // API Call
+  function handeleCreatArticle(e) {
     axios.post("http://localhost:8000/articles", {
       id: 5,
       imageUrl: "",
@@ -35,10 +39,12 @@ function CreatArticle() {
       date: article.Date,
       content: article.Content,
     });
-  };
+  }
   return (
     <div>
+      {/* Navbar Camponent */}
       <Navbar />
+      {/* Main Section Creat Article */}
       <section class="py-1">
         <div class="w-full lg:w-8/12 px-4 mx-auto mt-6">
           <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0">
@@ -199,6 +205,7 @@ function CreatArticle() {
           </div>
         </div>
       </section>
+      {/* Footer Camponent */}
       <Footer />
     </div>
   );
